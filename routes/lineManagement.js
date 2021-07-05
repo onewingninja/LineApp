@@ -18,6 +18,6 @@ router.get('/:page', [authentication, admin], (req, res) => {
     .sort({name: 1});
 
     return lines;
-})
+})  
 
 module.exports = router;
